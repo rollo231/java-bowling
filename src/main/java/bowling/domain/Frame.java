@@ -2,10 +2,10 @@ package bowling.domain;
 
 public class Frame {
 
-    private final Score score;
+    private final Pins pins;
 
-    public Frame(Score score) {
-        this.score = score;
+    public Frame(int countOfPins) {
+        this.pins = new Pins(countOfPins);
     }
 
 
